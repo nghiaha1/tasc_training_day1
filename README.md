@@ -17,11 +17,13 @@ Interface: Trong interface sẽ định nghĩa các phương thức muốn sử 
 Abstract class: Là 1 lớp trừu tượng, trong đó chứa các phương thức trừu tượng. Các class khi kế thừa abstract class sẽ ogaru định nghĩa lại các phương thức trừu tượng đc khai báo trong abstract class.
 
 Final: Từ khóa final đc sử dụng khi khai báo biến, phương thức hoặc lớp.
+
     - Biến final: Khi đc khai báo final, biến sẽ trở thành hằng số.
     - Phương thức final: Không thể bị ghi đè (override).
     - Lớp final: Không thể bị kế thừa bởi lớp khác.
 
 Static: Từ khóa static đc sử dụng khi khai báo biến, phương thức hoặc khối static.
+
     - Biến static: Biến static (biến tĩnh) chỉ cấp phát địa chỉ bộ nhớ 1 lần khi tải lớp chứa nó. Có thể sử dụng để khai báo thông tin chung cho các thuộc tính trong lớp đó.
     - Phương thức static:   + Thuộc lớp chứ k phải đối tượng của lớp.
                             + Phương thức static có thể đc gọi mà k cần tạo instance của lớp.
